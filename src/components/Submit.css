@@ -1,0 +1,74 @@
+.card {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  padding: 35px 24px 37px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 279px;
+}
+
+.bground {
+  background: #262e38;
+  border-radius: 22.5px;
+  padding: 0px 12px;
+
+  text-align: center;
+  margin-top: 12px;
+}
+.bground p {
+  color: orange;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 12px;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #969fad;
+}
+
+@media screen and (min-width: 750px) {
+  .card {
+    width: 412px;
+    padding: 45px 32px;
+  }
+
+  .img-2 {
+    width: 162px;
+    height: 108px;
+  }
+  .bground {
+    width: 193px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 26px;
+  }
+}
